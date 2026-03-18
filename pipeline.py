@@ -4,7 +4,7 @@ from PIL import Image
 from utils import risk_level
 
 # Load YOLO model
-yolo_model = YOLO("runs/detect/train2/weights/best.pt")
+yolo_model = YOLO("best.pt")
 
 
 def run_pipeline(image_path):
